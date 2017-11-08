@@ -45,5 +45,6 @@ public class HiveTest {
         //
         statement.close();
         connection.close();
+        //
     }
 }
