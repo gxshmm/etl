@@ -38,6 +38,7 @@ public class HiveTest {
         while (resultSet.next()){
             System.out.println(resultSet.getString(1));
         }
+        //
     }
     @After
     public void after() throws SQLException {
