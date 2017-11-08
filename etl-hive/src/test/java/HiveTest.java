@@ -42,7 +42,9 @@ public class HiveTest {
     @After
     public void after() throws SQLException {
         //
+        //
         statement.close();
         connection.close();
+        //
     }
 }
