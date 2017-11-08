@@ -29,6 +29,7 @@ public class HiveTest {
         Class.forName("org.apache.hive.jdbc.HiveDriver");
         connection=DriverManager.getConnection("jdbc:hive2://172.16.2.201:10000/bbd","root","");
         statement=connection.createStatement();
+        //
     }
 
 
